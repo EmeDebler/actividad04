@@ -1,22 +1,56 @@
- html, body { margin: 0;
+ html, body { margin: 0px;
+ 			padding: 0px;
+ 			font-family: helvetica;
   }
 header{width: 100%
 		height 400px;
 		position: relative;
-		}
-ul{position: absolute;
-		z-index: 2;}
-
-li{ display: inline-block;
-	margin-left: 330px;
-	padding: 1px;
-	padding-bottom: 3px
-
-
-	 }
+	}
+nav{position: absolute;
+	 float: left;
+	z-index: 2;
+	word-spacing: 15px;
+	margin-top: 20px;
+	margin-left: 990px;
+	}
 a{color: white;
-	
+text-decoration: none;
 }
+article{position: absolute;
+		}
+.green-btn{
+    width: 118px;
+    height: auto;
+    margin-top: 300px;
+    margin-left: 700px;
+    line-height: 35px;
+    text-align: center;
+    font-family: roboto,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    background: #093;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2
+	}
+.blue-btn{
+    width: 135px;
+    height: auto;
+    margin-top: 300px;
+    margin-left: 550px;
+    line-height: 35px;
+    text-align: center;
+    font-family: roboto,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    background: #1A73E8;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2	}	
 .parque{position: absolute;
 		}
 .texto{ position: absolute;
@@ -45,6 +79,42 @@ a{color: white;
 	    line-height: 5px;
 	    margin-left: 350px;
 	    margin-top: 340px;
-	  	z-index: 2}
-
-
+	  	z-index: 2
+	  }
+.texto3{width: 800px;
+		height: auto;
+	    text-align: center;
+		font-size: 15px;
+	    line-height: 5px;
+	    margin-top: 300px;
+	    margin-left: 50px;
+	  	padding: 200px;
+		}
+.gente{margin-top: -200px;
+		margin-left:450px;
+		padding-top: 3px;
+	}
+.blue-btn2{width: 135px;
+    	height: auto;
+    	margin-top: -190px;
+   		margin-left: 580px;
+    	line-height: 35px;
+    	text-align: center;
+    	font-family: roboto,sans-serif;
+    	font-weight: 600;
+    	font-size: 16px;
+    	color: #fff;
+    	display: inline-block;
+    	background: #1A73E8;
+    	border-radius: 5px;
+    	position: absolute;
+   		}
+.texto4{width: 800px;
+		height: auto;
+	    text-align: center;
+		font-size: 15px;
+	    line-height: 5px;
+	    margin-top: -150px;
+	    margin-left: 80px;
+	  	padding: 200px;
+	  	}s
