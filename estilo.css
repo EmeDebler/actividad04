@@ -1,5 +1,6 @@
- html, body { margin: 0px;
+ html, body { margin: -1px;
  			padding: 0px;
+ 			border: 1px solid #222222;
  			font-family: helvetica;
   }
 header{width: 100%
@@ -17,7 +18,12 @@ a{color: white;
 text-decoration: none;
 }
 article{position: absolute;
+		border-top-color: black;
 		}
+footer{position: absolute;
+		margin: 35px;
+		}
+h3{color: #1A73E8}
 .green-btn{
     width: 118px;
     height: auto;
@@ -91,13 +97,13 @@ article{position: absolute;
 	  	padding: 200px;
 		}
 .gente{margin-top: -200px;
-		margin-left:450px;
+		margin-left:480px;
 		padding-top: 3px;
 	}
 .blue-btn2{width: 135px;
     	height: auto;
     	margin-top: -190px;
-   		margin-left: 580px;
+   		margin-left: 610px;
     	line-height: 35px;
     	text-align: center;
     	font-family: roboto,sans-serif;
@@ -117,4 +123,39 @@ article{position: absolute;
 	    margin-top: -150px;
 	    margin-left: 80px;
 	  	padding: 200px;
-	  	}s
+		}
+.margen{position: absolute;
+		width: 1366px;
+		height: 310px;
+		background: #F5F3F3;
+		border: 1px solid #C3C3C3;
+		margin-top: -5px;
+		}
+.frase{margin-top: -355px 
+		}
+.texto5{padding: -35px;
+	  	margin-left: 575px;
+		margin-top: 1290px;
+	 	line-height: 5px;
+	 	color: black;
+		}
+.texto6{padding: 20px;
+		margin-top: -108px;
+	  	margin-left: 205px;
+	  	line-height: 5px;
+		color: black;
+		}
+.color{background-color: #222222;
+		border: 1px solid #222222;
+        position: absolute;
+      	margin: -1px;
+		width: 1369px;
+		height: 85px;
+		margin-top: 1550px;
+		}
+.color p{color: #C3C3C3;
+	text-align: center;
+	padding-right: 640px;
+	padding-top: 20px;
+	font-family: helvetica;
+	}
